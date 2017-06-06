@@ -1,6 +1,5 @@
 #!/bin/bash 
 cd ~/Downloads;
-sudo apt-get update;
 sudo apt-get install -y default-jdk;
 sudo apt-get install -y libqt4-opengl;
 sudo apt-get install -y dkms;
