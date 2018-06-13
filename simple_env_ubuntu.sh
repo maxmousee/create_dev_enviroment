@@ -1,4 +1,9 @@
 #!/bin/bash 
+
+# Install common used tools to program: OpenJDK 8, Maven, Python, Git, Cucumber, VirtualBox, Vagrant, Chrome.
+
+# Currently works on Ubuntu/Debian 16.04 LTS
+
 cd ~/Downloads;
 sudo apt-get install -y default-jdk;
 sudo apt-get install -y libqt4-opengl;
