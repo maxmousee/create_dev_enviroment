@@ -4,6 +4,10 @@
 
 # First, install npm, JDK, VSCode
 
+# Install homebrew
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # Then install nativefier
 
 sudo npm install nativefier -g;
