@@ -8,6 +8,10 @@
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# Install virtualenv
+sudo easy_install pip
+sudo pip install virtualenv
+
 # Then install nativefier
 
 sudo npm install nativefier -g;
