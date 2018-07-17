@@ -36,4 +36,4 @@ alias gtstat="git status"
 alias gtpull="git pull"
 
 # generate password
-alias genpassword="openssl rand -base64 14"
+alias randpw="head -c24 < /dev/random | base64"
