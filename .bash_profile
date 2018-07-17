@@ -34,3 +34,6 @@ alias cddev="cd ~/dev"
 #GIT
 alias gtstat="git status"
 alias gtpull="git pull"
+
+# generate password
+alias genpassword="openssl rand -base64 14"
