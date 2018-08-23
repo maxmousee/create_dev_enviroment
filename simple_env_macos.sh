@@ -9,7 +9,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install brew packages for Python Stress Detector
-brew install freetype; brew install pkg-config; brew install libpng
+brew install freetype; brew install pkg-config; brew install libpng; brew install maven;
 
 # Install virtualenv
 sudo easy_install pip
