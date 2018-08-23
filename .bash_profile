@@ -37,3 +37,19 @@ alias gtpull="git pull"
 
 # generate password
 alias randpw="head -c24 < /dev/random | base64"
+
+# maven path
+export M2_HOME=/usr/local/Cellar/maven/3.5.4
+export PATH=$PATH:$M2_HOME/bin
+export PATH
+
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
+export JAVA_HOME;
+
+export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
