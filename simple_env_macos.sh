@@ -16,7 +16,7 @@ sudo easy_install pip
 sudo pip install virtualenv
 
 # Install cocoapods
-gem install cocoapods
+sudo gem install cocoapods
 
 # Then install nativefier
 
