@@ -9,7 +9,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install brew packages for Python Stress Detector
-brew install freetype; brew install pkg-config; brew install libpng; brew install maven;
+brew install freetype; brew install cairo; brew install pkg-config; brew install libpng; brew install maven;
 
 # Install git-completion
 brew install git bash-completion;
