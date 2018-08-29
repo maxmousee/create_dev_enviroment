@@ -11,6 +11,9 @@
 # Install brew packages for Python Stress Detector
 brew install freetype; brew install pkg-config; brew install libpng; brew install maven;
 
+# Install git-completion
+brew install git bash-completion;
+
 # Install virtualenv
 sudo easy_install pip
 sudo pip install virtualenv
