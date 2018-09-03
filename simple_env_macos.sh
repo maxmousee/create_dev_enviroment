@@ -14,6 +14,9 @@ brew install freetype; brew install cairo; brew install pkg-config; brew install
 # Install git-completion
 brew install git bash-completion;
 
+# Install BAT, cat but for source code
+brew install cat;
+
 # Install virtualenv
 sudo easy_install pip
 sudo pip install virtualenv
