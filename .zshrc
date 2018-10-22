@@ -127,6 +127,10 @@ alias ll="ls -lah"
 #cd to repo
 alias cdrepo="cd ~/repo"
 
+#cd ..
+alias cd..="cd .."
+alias cd...="cd ../.."
+
 #cd to dev
 alias cddev="cd ~/dev"
 

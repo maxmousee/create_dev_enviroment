@@ -23,6 +23,10 @@ alias xml="xmllint --format -"
 # ls ubuntu like
 alias ll="ls -lah"
 
+#cd ..
+alias cd..="cd .."
+alias cd...="cd ../.."
+
 #cd to repo
 alias cdrepo="cd ~/repo"
 
