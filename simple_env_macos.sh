@@ -2,7 +2,7 @@
 
 # Install basic tools to simplify my life in MacOS
 
-# First, install npm, JDK, VSCode
+# First install JDK, VSCode
 
 # Install homebrew
 
@@ -13,6 +13,12 @@ brew install freetype; brew install cairo; brew install pkg-config; brew install
 
 # Install git-completion
 brew install git bash-completion;
+
+# Install BAT, cat but for source code
+brew install cat;
+
+# Install NodeJS
+brew install node;
 
 # Install virtualenv
 sudo easy_install pip
