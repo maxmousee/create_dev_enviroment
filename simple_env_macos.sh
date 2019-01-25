@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # Install basic tools to simplify my life in MacOS
 
@@ -28,12 +28,13 @@ sudo pip install virtualenv
 sudo gem install cocoapods
 
 # Then install nativefier
-
 sudo npm install nativefier -g;
+
+# Install Go Language Support
+brew install golang;
 
 cd ~/Desktop;
 
 nativefier "http://www.messenger.com";
 
 nativefier "m.instagram.com" -u "Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) Version/11.0 Mobile/15A5304j Safari/604.1";
-
