@@ -1,7 +1,8 @@
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
-export GOPATH="$HOME/go"
+export GOPATH="$HOME/goworkspace"
+export GOBIN="$HOME/goworkspace/bin"
 export GOROOT="/usr/local/Cellar/go/1.14.4/libexec"
 
 PATH="$GOPATH/bin:${PATH}"
@@ -33,6 +34,7 @@ alias cddev="cd ~/dev"
 alias gitstat="git status"
 alias gitpull="git pull"
 alias gitadd="git add -A"
+alias gitc="git commit -m"
 
 # generate password
 alias randpw="head -c24 < /dev/random | base64"
