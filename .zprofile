@@ -30,7 +30,7 @@ alias cd...="cd ../.."
 #cd to dev
 alias cddev="cd ~/dev"
 
-alias ctrl-c='xclip -selection c'
+alias ctrl-c="xclip -selection c"
 
 # Now you can pipe stuff into the clipboard
 # cat pom.xml | ctrl-c
