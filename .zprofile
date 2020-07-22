@@ -39,7 +39,11 @@ alias ctrl-c="xclip -selection c"
 alias gitstat="git status"
 alias gitpull="git pull"
 alias gitadd="git add -A"
-alias gitc="git commit -m"
+alias gitco="git commit -m"
+alias gitchec="git checkout ."
+
+#set gopath
+alias setgo="export GOPATH=$(pwd)"
 
 # generate password
 alias randpw="head -c24 < /dev/random | base64"
