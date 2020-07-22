@@ -3,7 +3,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 export GOPATH="$HOME/goworkspace"
 export GOBIN="$HOME/goworkspace/bin"
-export GOROOT="/usr/local/Cellar/go/1.14.4/libexec"
+export GOROOT="/usr/local/Cellar/go/1.14.5/libexec"
 
 PATH="$GOPATH/bin:${PATH}"
 export PATH
