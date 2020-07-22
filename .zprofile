@@ -22,6 +22,7 @@ alias ll="ls -lah"
 
 #cd to repo
 alias cdrepo="cd ~/repo"
+alias cdgoutils="cdrepo; cd goutils"
 
 #cd ..
 alias cd..="cd .."
@@ -43,7 +44,7 @@ alias gitco="git commit -m"
 alias gitchec="git checkout ."
 
 #set gopath
-alias setgo="export GOPATH=$(pwd)"
+alias setgo="export GOPATH="\$PWD""
 
 # generate password
 alias randpw="head -c24 < /dev/random | base64"
