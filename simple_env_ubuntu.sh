@@ -20,3 +20,6 @@ sudo apt-get install -y git;
 sudo apt-get install -y python-software-properties;
 sudo apt-get install -y python python-pip;
 pip install --upgrade pip;
+
+
+# if using gnome, install dash to dock :) 
